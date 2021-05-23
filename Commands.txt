@@ -1,0 +1,11 @@
+----- Setting up db ------
+go to cmd
+open python
+
+1. from FlaskBlog import db
+2. db.create_all()
+3. from FlaskBlog import User, Post
+4. user1 = User(username='Deepak',email='d@gmail.com',password='password')
+5. db.session.add(user1)
+6. db.session.commit()
+
